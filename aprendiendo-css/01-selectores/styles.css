@@ -1,0 +1,66 @@
+/* Selectior universal */
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Selectior de etiqueta */
+
+a {
+    font-size: 18px;
+    color: green;
+    text-decoration: none;
+}
+
+/* Selectior de id */
+
+#descripcion {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+/* Selectores de clase */
+
+.parrafo {
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Selectores de atributo */
+
+#usuario form {
+    border: 5px solid blue;
+}
+
+input[type="text"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 300px;
+}
+
+input[type="submit"] {
+    background: green;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* Selectores de hijo */
+
+#menu > li > a {
+    font-size: 18px;
+    color: red;
+    text-decoration: none;
+}
+
+/* Prioridad */
+
+#saludo h1 {
+    background: brown;
+}
+
+h1 {
+    background: purple !important; 
+}

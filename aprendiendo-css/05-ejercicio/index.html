@@ -1,0 +1,78 @@
+<!-- 
+
+Ejercicio completo con HTML y CSS.
+
+(HECHO) 1. Crear un documento HTML y vincularlo con CSS.
+(HECHO) 2. Crear una estructura HTML que cuente con un CONTENEDOR GENERAL, CABECERA, MENU, BARRA LATERAL, SECCIÓN DE CONTENIDO PRINCIPAL, ELEMENTOS DENTRO DEL CONTENEDOR PRINCIPAL Y FOOTER.
+3. Todo el contenido debe estar dentro del contenedor general y sua ancho será de 1200px y estar centrado
+4. Header debe ocupar el 100% del ancho y tener un texto grande y centrado.
+5. Menu debe tener todos los elementos uno al lado del otro
+6. El contenido principal debe tener un ancho del 70% 
+7. El contenido dentro del contenedor principal debe ser una cuadrícula con 4 líneas de 2 cajas.
+8. La barra lateral debe tener un ancho del 30%.
+9. El footer debe tener un ancho del 100% del div que lo contiene y estar abajo del todo
+
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ejercicio con HTML y CSS</title>
+</head>
+<body>
+    <div id="general">
+        <header id="header">
+            <h1>Ejercicio con HTML y CSS - José María Gil Leal</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Artículos</a></li>
+                    <li><a href="#">Categorías</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+                <div class="clearfix"></div>
+            </nav>
+            <section id="contenido">
+                <div class="caja">
+                    <h2>Caja 1</h2>
+                </div>
+                <div class="caja">
+                    <h2>Caja 2</h2>
+                </div>
+                <div class="caja">
+                    <h2>Caja 3</h2>
+                </div>
+                <div class="caja">
+                    <h2>Caja 4</h2>
+                </div>
+                <div class="caja">
+                    <h2>Caja 5</h2>
+                </div>
+                <div class="caja">
+                    <h2>Caja 6</h2>
+                </div>
+                <div class="caja">
+                    <h2>Caja 7</h2>
+                </div>
+                <div class="caja">
+                    <h2>Caja 8</h2>
+                </div>
+            </section>
+
+            <sidebar id="lateral">
+                <div class="caja">
+                    <h2>Elemento de la barra lateral</h2>
+                </div>
+            </sidebar>
+
+            <footer id="footer">
+                Todos los derechos reservados &copy;
+            </footer>
+        </header>
+    </div>
+    
+</body>
+</html>
