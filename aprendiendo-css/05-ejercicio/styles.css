@@ -76,3 +76,21 @@ Ejercicio completo con HTML y CSS.
     width: 30%;
     background-color: #cd2525;
 }
+
+#contenido > h1 {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+    color: #444;
+}
+
+#contenido .caja {
+    width: 40%;
+    height: 250px;
+    background-color: #f00;
+    border: 5px solid blue;
+    color: white;
+    float: left;
+    margin: 20px;
+    margin-left: 40px;
+}
